@@ -30,6 +30,18 @@ Desktop: 1440px
    box-sizing: border-box;
 }
 
+/* !!!! */
+/* 
+   "THIS IS ONLY TO HAVE AN IMAGE FOR THE PHONE"
+*/
+body .img-phone{
+   display:none;
+}
+/* 
+   -------------------END---
+*/
+/* !!!! */
+
 body {
    display: flex;
    flex-direction: column;
@@ -217,5 +229,37 @@ body {
 .amount {
    color: var(--primaty-color);
    font-weight: bold;
+}
+
+
+@media screen and (max-width:740px){
+   
+   body {
+      display: block;
+      background-color: var(--white);
+   }
+
+   body img.img-phone{
+      width: 100%;
+      display: block;
+      /* width: 100px; */
+   }
+
+   .container {
+      background-color: var(--white);
+      width: 100%;
+      padding: 20px;
+      margin: 0;
+      border-radius: 0px;
+   }
+
+   .container .img-container {
+      display: none;
+   }
+
+   .attribution {
+      text-align: center;
+      margin-top: 35px;
+   }
 }
 
