@@ -12,8 +12,8 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Here](https://www.frontendmentor.io/solutions/html-and-css-PnuKAUQgaK)
+- Live Site URL: [Here](https://zlatan-cic.github.io/recipe-page-main/)
 
 ### Built with
 
