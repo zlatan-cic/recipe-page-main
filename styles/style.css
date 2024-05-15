@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
+:root {
+   --primaty-color: hsl(14, 45%, 36%);
+   --second-primaty-color: hsl(332, 51%, 32%);
+   --threed-primaty-color: hsla(332, 86%, 86%, 0.212);
+
+   --white:hsl(0, 0%, 100%);
+   --white-rose: hsl(330, 100%, 98%);
+   --eggshell:hsl(30, 54%, 90%);
+   --light-grey:hsl(30, 18%, 87%);
+   --wenge-brown:hsl(30, 10%, 34%);
+   --dark-charcoal:hsl(24, 5%, 18%);
+
+   --outfit:"Outfit", sans-serif;
+   --young-serif:"Young Serif", serif;
+
+}
+
+/* 
+Mobile: 375px
+Desktop: 1440px
+
+*/
+
+*{
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+}
+
+body {
+   display: flex;
+   flex-direction: column;
+   background-color: var(--eggshell);
+   justify-content: center;
+   align-items: center;
+   /* height: 100vh; */
+   font-family: var(--outfit);
+}
+
+.container {
+   background-color: var(--white-rose);
+   width: 730px;
+   padding: 35px;
+   margin: 100px 0;
+   border-radius: 25px;
+   
+}
+.container .img-container {
+   /* background-color: aqua; */
+   width: 100%;
+   
+}
+.img-container img {
+   width: 100%;
+   border-radius: 15px;
+}
+
+.container h1.title {
+   font-family: var(--young-serif);
+   font-size: 28px;
+   margin: 25px 0;
+   font-weight: 400;
+}
+.description{
+   /* margin-bottom: 25px; */
+}
+
+.prep-container {
+   background-color: var(--threed-primaty-color);
+   /* padding: 30px; */
+   border-radius: 15px;
+   margin: 25px 0;
+}
+
+.prep-container {
+   display: flex;
+   flex-direction: column;
+   padding: 30px;
+}
+
+.prep-container .title {
+   margin-bottom: 15px;
+}
+
+.prep-container ul {
+   /* background-color: aliceblue; */
+   padding: 0 20px;
+   color: var(--second-primaty-color);
+}
+
+.prep-container span {
+   font-weight: bold;
+}
+
+.prep-container p {
+   color: var(--dark-charcoal);
+   /* opacity: .9; */
+   letter-spacing: 1px;
+   margin-bottom: 5px;
+}
+
+.prep-container li  {
+   /* background-color: aqua; */
+   padding-left: 30px;
+}
+
