@@ -115,6 +115,7 @@ body {
    border-bottom:1px solid rgba(70, 69, 69, 0.151)  ;
    padding-bottom: 20px;
    margin-bottom: 20px;
+   /* padding: 10px; */
 }
 
 .ingredients .title {
@@ -139,3 +140,40 @@ body {
    line-height: 1.8;
    color: var(--dark-charcoal);
 }
+
+.instructions {
+   /* background-color: aqua; */
+   border-bottom:1px solid rgba(70, 69, 69, 0.151)  ;
+   padding-bottom: 20px;
+   margin-bottom: 20px;
+   padding: 10px;
+}
+
+
+.instructions .title {
+   margin-bottom: 15px;
+   color: var(--primaty-color);
+   font-family: var(--young-serif);
+   font-size: 26px;
+   font-weight: 400;
+}
+
+.instructions ul {
+   margin-left: 10px;
+}
+.instructions li {
+   margin-left: 10px;
+   color: var(--second-primaty-color);
+}
+
+.instructions p{
+   /* background-color: blue; */
+   margin-left: 25px;
+   line-height: 1.8;
+   color: var(--dark-charcoal);
+}
+
+.instructions span {
+   font-weight: bold;
+}
+
