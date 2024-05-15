@@ -38,6 +38,7 @@ body {
    align-items: center;
    /* height: 100vh; */
    font-family: var(--outfit);
+   color: var(--dark-charcoal);
 }
 
 .container {
@@ -174,6 +175,47 @@ body {
 }
 
 .instructions span {
+   font-weight: bold;
+}
+
+
+.nutrition {
+   /* background: rgb(148, 148, 224); */
+}
+
+.nutrition h2 {
+   margin-bottom: 15px;
+   color: var(--primaty-color);
+   font-family: var(--young-serif);
+   font-size: 26px;
+   font-weight: 400;
+}
+
+.nutrition>p {
+   /* color: var(--dark-charcoal); IN BODY FOR ALL */
+   /* .nutrition>p only <p> */
+   margin-bottom: 15px;
+}
+
+.nutrition-table .items{
+   display: flex;
+   /* justify-content: space-around; */
+   padding: 10px;
+   border-bottom: 1px solid rgba(70, 69, 69, 0.151)  ;
+   /* background: tan; */
+}
+
+.items:last-child{
+   border: none;
+}
+
+.nutrition-table .category {
+   width: 50%;
+   margin-left: 20px;
+}
+
+.amount {
+   color: var(--primaty-color);
    font-weight: bold;
 }
 
