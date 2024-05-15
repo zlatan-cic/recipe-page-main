@@ -83,6 +83,7 @@ body {
 
 .prep-container .title {
    margin-bottom: 15px;
+   color: var(--second-primaty-color);
 }
 
 .prep-container ul {
@@ -99,7 +100,8 @@ body {
    color: var(--dark-charcoal);
    /* opacity: .9; */
    letter-spacing: 1px;
-   margin-bottom: 5px;
+   /* margin-bottom: 5px; */
+   line-height: 1.8;
 }
 
 .prep-container li  {
@@ -107,3 +109,33 @@ body {
    padding-left: 30px;
 }
 
+.ingredients {
+   /* background-color: aqua; */
+   /* padding: 15px; */
+   border-bottom:1px solid rgba(70, 69, 69, 0.151)  ;
+   padding-bottom: 20px;
+   margin-bottom: 20px;
+}
+
+.ingredients .title {
+   margin-bottom: 15px;
+   color: var(--primaty-color);
+   font-family: var(--young-serif);
+   font-size: 26px;
+   font-weight: 400;
+}
+
+.ingredients ul {
+   margin-left: 10px;
+}
+.ingredients li {
+   margin-left: 10px;
+   color: var(--second-primaty-color);
+}
+
+.ingredients p{
+   /* background-color: blue; */
+   margin-left: 25px;
+   line-height: 1.8;
+   color: var(--dark-charcoal);
+}
